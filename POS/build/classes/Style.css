@@ -1,0 +1,138 @@
+
+.top{
+    -fx-background-color: C9DCEE;
+   
+}
+.left{
+        -fx-background-color: C9DCEE;
+
+}
+.bottom{
+        -fx-background-color: C9DCEE;
+
+}
+.right{
+       -fx-background-color: C9DCEE;
+ 
+}
+.btn1{
+    -fx-background-color: blue;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-pref-width: 184;
+    -fx-pref-height: 48;   
+}
+.btn2{
+   -fx-background-color: blue;
+   -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+     -fx-pref-width: 184;
+    -fx-pref-height: 48;  
+}
+.btn3{
+    -fx-background-color: blue;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+     -fx-pref-width: 184;
+    -fx-pref-height: 48;  
+}
+.btn4{
+    -fx-background-color: blue;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+     -fx-pref-width: 184;
+    -fx-pref-height: 48;  
+}
+.btn5{
+    -fx-background-color: blue;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+     -fx-pref-width: 383;
+    -fx-pref-height: 31;  
+}
+.sp1{
+   -fx-border-color: brown; 
+}
+.sp2{
+     -fx-border-color: brown; 
+    
+}
+.sp3{
+     -fx-border-color: brown; 
+}
+.sp4{
+     -fx-border-color: brown; 
+}
+.sp5{
+     -fx-border-color: brown; 
+}
+.sp6{
+     -fx-border-color: brown; 
+}
+.sp7{
+     -fx-border-color: brown; 
+}
+.sp8{
+     -fx-border-color: brown; 
+}
+.sp9{
+     -fx-border-color: brown; 
+}
+.lbl{
+    
+     -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+
+}
+
+.label1{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}
+.label2{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}
+.label3{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}
+.label4{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}
+.label5{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}
+.label6{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}
+.label7{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}
+.label8{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}
+.label9{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}

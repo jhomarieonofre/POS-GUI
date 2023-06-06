@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="858.0" prefWidth="1446.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="1050.0">
+         <children>
+            <StackPane layoutX="639.0" prefHeight="22.0" prefWidth="411.0">
+               <children>
+                  <Label alignment="BOTTOM_LEFT" prefHeight="21.0" prefWidth="318.0" text="ORDER DETAILS">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
+            <StackPane layoutX="28.0" layoutY="92.0" prefHeight="150.0" prefWidth="200.0" styleClass="sp1">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@affogato%20yawa.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <StackPane layoutX="241.0" layoutY="95.0" prefHeight="150.0" prefWidth="200.0" styleClass="sp2">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Amerikano%20YAWA.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <StackPane layoutX="453.0" layoutY="95.0" prefHeight="150.0" prefWidth="200.0" styleClass="sp3">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@espreso%20yawa.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <StackPane layoutX="28.0" layoutY="329.0" prefHeight="150.0" prefWidth="200.0" styleClass="sp4">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iced%20coffee%20yawa.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <StackPane layoutX="241.0" layoutY="329.0" prefHeight="150.0" prefWidth="200.0" styleClass="sp5">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@milk%20yawa.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <StackPane layoutX="462.0" layoutY="330.0" prefHeight="150.0" prefWidth="200.0" styleClass="sp6">
+               <children>
+                  <ImageView fitHeight="134.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@mocha%20yawa.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <StackPane layoutX="680.0" layoutY="28.0" prefHeight="286.0" prefWidth="405.0">
+               <children>
+                  <StackPane prefHeight="719.0" prefWidth="405.0">
+                     <children>
+                        <ImageView fitHeight="140.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_LEFT">
+                           <StackPane.margin>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </StackPane.margin>
+                           <image>
+                              <Image url="@cappucheno%20yawa.jpg" />
+                           </image>
+                        </ImageView>
+                        <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="383.0" styleClass="btn5" text="PAY NOW" StackPane.alignment="BOTTOM_CENTER">
+                           <StackPane.margin>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </StackPane.margin>
+                        </Button>
+                        <Pane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <Label layoutX="21.0" layoutY="208.0" styleClass="lbl" text="TOTAL" />
+                              <Label layoutX="321.0" layoutY="208.0" styleClass="lbl" text="P80.00" />
+                              <Label layoutX="321.0" layoutY="14.0" prefHeight="21.0" prefWidth="82.0" styleClass="lbl" text="P80.00" />
+                              <Label layoutX="161.0" layoutY="14.0" styleClass="lbl" text="PRICE" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <Label alignment="CENTER" layoutX="84.0" layoutY="254.0" styleClass="label1" text="AFFOGATO" textAlignment="CENTER" />
+            <Label layoutX="327.0" layoutY="254.0" styleClass="label2" text="AMERICANO" />
+            <Label layoutX="526.0" layoutY="254.0" styleClass="label3" text="ESPRESSO" />
+            <Label layoutX="92.0" layoutY="485.0" styleClass="label4" text="Iced Coffee" />
+            <Label layoutX="316.0" layoutY="485.0" styleClass="label5" text="MILK" />
+            <Label layoutX="544.0" layoutY="485.0" styleClass="label6" text="MOCHA" />
+            <StackPane layoutX="29.0" layoutY="567.0" prefHeight="150.0" prefWidth="200.0" styleClass="sp7">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@original%20yawa.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <StackPane layoutX="245.0" layoutY="567.0" prefHeight="150.0" prefWidth="200.0" styleClass="sp8">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@cappucheno%20yawa.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <StackPane layoutX="466.0" layoutY="567.0" prefHeight="150.0" prefWidth="200.0" styleClass="sp9">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@yawa1.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <Label layoutX="87.0" layoutY="725.0" styleClass="label7" text="ORIGINAL" />
+            <Label layoutX="323.0" layoutY="725.0" styleClass="label8" />
+            <Label layoutX="533.0" layoutY="725.0" styleClass="label9" text="MACHEATO" />
+            <Label layoutX="29.0" layoutY="275.0" styleClass="lbl" text="P150.00" />
+            <Label layoutX="243.0" layoutY="275.0" styleClass="lbl" text="P120.00" />
+            <Label layoutX="462.0" layoutY="275.0" styleClass="lbl" text="P140.00" />
+            <Label layoutX="27.0" layoutY="506.0" styleClass="lbl" text="P700.00" />
+            <Label layoutX="243.0" layoutY="506.0" styleClass="lbl" text="P85.00" />
+            <Label layoutX="462.0" layoutY="506.0" styleClass="lbl" text="P130.00" />
+            <Label layoutX="27.0" layoutY="746.0" styleClass="lbl" text="P100.00" />
+            <Label layoutX="243.0" layoutY="746.0" styleClass="lbl" text="P80.00 " />
+            <Label layoutX="462.0" layoutY="746.0" styleClass="lbl" text="P200.00" />
+         </children></AnchorPane>
+   </center>
+   <bottom>
+      <HBox prefHeight="100.0" prefWidth="200.0" styleClass="bottom" BorderPane.alignment="CENTER" />
+   </bottom>
+   <top>
+      <HBox prefHeight="43.0" prefWidth="1250.0" styleClass="top" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="21.0" prefWidth="1451.0" text="Coffee store Onofre">
+               <font>
+                  <Font name="System Bold" size="71.0" />
+               </font>
+            </Label>
+         </children></HBox>
+   </top>
+   <left>
+      <VBox prefHeight="656.0" prefWidth="198.0" styleClass="left" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="279.0" prefWidth="198.0" />
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="184.0" styleClass="btn1" text="ALL">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="121.0" styleClass="btn2" text="PLAIN COFFEE">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="121.0" styleClass="btn3" text="SPECIALS">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="121.0" styleClass="btn4" text="MIX AND MATCH">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+   <right>
+      <VBox prefHeight="619.0" prefWidth="163.0" styleClass="right" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>
